@@ -1,0 +1,9 @@
+.header__lang-links {
+    display: flex;
+    list-style: none;
+    align-items: end;
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}
+
