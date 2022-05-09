@@ -6,3 +6,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*Для разрешения 768px*/
+@media screen and (max-width:768px) {
+    .footer {
+      min-height: 310px;
+      padding: 88px 24px 24px 24px;
+      flex-direction: column;
+    }
+  }

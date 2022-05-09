@@ -1,7 +1,15 @@
 .footer__links {
+    color: #ffff;
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
 }
 
+/*Для разрешения 768px*/
+@media screen and (max-width:768px) {
+  .footer__links {
+    max-width: 320px;
+    flex-direction: column;
+  }
+}

@@ -3,10 +3,35 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    margin: 0 0 26px 0;
+    margin: 0;
+    padding-bottom: 26px;
     font-family: "Inter", "Arial";
 }
 
 .place__paragraph:last-child {
-    margin-bottom: 0;
+    padding-bottom: 0;
 }
+
+/*Для разрешения 1024px*/
+@media screen and (max-width:1024px) {
+    .place__paragraph {
+      max-width: 456px;
+    }
+  }
+  
+  /*Для разрешения 768px*/
+  @media screen and (max-width:768px) {
+    .place__paragraph {
+      font-size: 16px;
+      max-width: 352px;
+    }
+  }
+  
+  /*Для разрешения 320px*/
+  @media screen and (max-width:320px) {
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 163%;
+      margin: 0 16px 0 16px;
+    }
+  }

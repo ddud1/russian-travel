@@ -1,9 +1,10 @@
 .header__lang-links {
     display: flex;
-    list-style: none;
-    align-items: end;
-    font-family: 'Inter';
+    font-family: "Inter","Arial";
     margin: 0;
     padding: 0;
+    align-items: flex-end;
 }
+
+
 

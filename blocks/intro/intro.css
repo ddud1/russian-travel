@@ -6,3 +6,26 @@
     flex-direction: column;
     max-width: 690px;
 }
+
+/*Для разрешения 1024px*/
+@media screen and (max-width:1024px) {
+    .intro {
+      padding: 92px 286px 92px 48px;
+    }
+  }
+  
+  /*Для разрешения 768px*/
+  @media screen and (max-width:768px) {
+    .intro {
+    padding: 88px 24px 88px 24px;
+
+    }
+  }
+  
+  /*Для разрешения 320px*/
+  @media screen and (max-width:320px) {
+    .intro {
+      max-width: 288px;
+    padding: 64px 16px 64px 16px;
+    }
+  }

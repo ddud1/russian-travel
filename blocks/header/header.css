@@ -1,10 +1,34 @@
 .header {
-    background-color: #2A2C2F;
     display: flex;
-    padding: 0;
-    margin: 28px 48px 56px 48px;
-    max-width: 1280px;
+    padding: 28px 48px 56px 48px;
     height: 52px;
     justify-content: space-between;
+    margin: 0;
     align-items: flex-end;
+}
+
+
+/*Для разрешения 1024px*/
+@media screen and (max-width:1024px) {
+    .header {
+        max-width: 90.625%;
+        padding: 28px 24px 48px 24px;;
+    }
+}
+
+/*Для разрешения 768px*/
+@media screen and (max-width:768px) {
+    .header {
+        max-width: 93.75%;
+        padding: 28px 24px 48px 24px;
+    }
+}
+
+/*Для разрешения 320px*/
+@media screen and (max-width:320px) {
+    .header {
+        min-height: 42px;
+        max-width: 90%;
+        padding: 16px 16px 48px 16px;
+    }
 }

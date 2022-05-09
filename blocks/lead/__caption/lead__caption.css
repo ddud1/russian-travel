@@ -2,6 +2,24 @@
     text-align: left;
     font-family: "Inter", "Arial";
     text-transform: uppercase;
-    padding: 0;
-    margin-top: 8px;
+    padding-top: 8px;
+    margin: 0;
 }
+
+/*Для разрешения 1024px*/
+@media screen and (max-width:1024px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+  }
+
+  /*Для разрешения 768px*/
+@media screen and (max-width:768px) {
+    .lead__caption {
+        padding-left: 16px;
+        font-size: 10px;
+        line-height: 14px; 
+    }
+  }
+  
+  

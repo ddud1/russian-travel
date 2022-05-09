@@ -1,13 +1,29 @@
 .header__lang-link {
     text-decoration: none;
+    font-family: "Inter", "Arial";
     font-size: 24px;
     padding: 0;
     line-height: 28px;
     color: #ffff;
     margin-right: 18px;
+    transition: opacity ease-in-out 1s;
+    padding-bottom: 6px;
 }
 
-.header__lang-link:nth-child(2) {
+.header__lang-link:last-of-type {
     margin-right: 0;
 }
+  
+  /*Для разрешения 320px*/
+  @media screen and (max-width:320px) {
+    .header__lang-link {
+        font-size: 18px;
+        padding-bottom: 8px;
+        line-height: 20px;
+    }
+  }
+
+  .header__lang-link:hover {
+    opacity: 0.5;
+   }
 

@@ -11,3 +11,12 @@ text-align: center;
 position: relative;
 z-index: 1;
 }
+
+/*Для разрешения 320px*/
+@media screen and (max-width:768px) {
+    .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+    }
+}
