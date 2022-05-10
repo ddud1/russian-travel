@@ -11,6 +11,6 @@
 /*Для разрешения 320px*/
 @media screen and (max-width:320px) {
     .footer__copyright {
-      padding-top: 64px;
+      padding-top: 48px;
     }
   }

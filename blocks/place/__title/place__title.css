@@ -2,14 +2,13 @@
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
-font-family: "Inter", "Arial";
 max-width: 460px;
 padding: 0;
 margin: 0;
 }
 
  /*Для разрешения 768px*/
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:767px) {
     .place__title {
       font-size: 42px;
       line-height: 46px;

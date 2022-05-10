@@ -9,27 +9,20 @@
     justify-content: center;
 }
 
-/*Для разрешения 1024px*/
-@media screen and (max-width:1024px) {
+/*Для разрешения 1280px*/
+@media screen and (max-width:1279px) {
     .places {
         max-width: 928px;
     }
 }
 
-/*Для разрешения 768px*/
-@media screen and (max-width:768px) {
+/*Для разрешения 1024px*/
+@media screen and (max-width:1023px) {
     .places {
         row-gap: 72px;
-        max-width: 93,75%;
+        max-width: 720px;
     }
 }
-
-/*Для разрешения 767px*/
-@media screen and (max-width: 767px) {
-    .places {
-      max-width: 100%;
-    }
-  }
 
 /*Для разрешения 320px*/
 @media screen and (max-width:320px) {

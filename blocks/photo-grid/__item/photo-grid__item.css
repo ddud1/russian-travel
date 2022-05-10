@@ -2,3 +2,6 @@
 width: 100%;
 }
 
+.photo-grid__item {
+max-width: 100%;
+}

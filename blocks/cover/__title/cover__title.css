@@ -1,7 +1,8 @@
-.cover__title {    
+.cover__title {  
+    margin: 0;
+    padding: 0; 
     max-width: 560px;
     color: #ffff;
-    font-family: "Inter", "Arial";
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -10,6 +11,7 @@
     display: flex;
     position: relative;
     z-index: 1;
+    padding-bottom: 32px;
 }
 
 /*Для разрешения 320px*/
@@ -18,5 +20,6 @@
      font-size: 32px;
      line-height: 35px;
      max-width: 288px;
+     padding-bottom: 16px;
     }
 }

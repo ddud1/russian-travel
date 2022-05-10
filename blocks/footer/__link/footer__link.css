@@ -1,5 +1,4 @@
 .footer__link {
-    font-family: "Inter", "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -9,7 +8,7 @@
 }
 
 /*Для разрешения 768px*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .footer__link {
         margin-bottom: 32px;
         font-size: 24px;
@@ -22,6 +21,6 @@
   }
 
   .footer__link:hover {
-   opacity: 0.5;
+   opacity: 0.8;
   }
   

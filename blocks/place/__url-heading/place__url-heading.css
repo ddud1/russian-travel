@@ -3,10 +3,10 @@ margin: 0 0 12px 0;
 font-size: 12px;
 line-height: 12px;
 font-weight: 400;
-font-family: "Inter", "Arial";
 transition: opacity ease-in-out 1s;
 text-transform: uppercase;
 color: #AAAAAA;
+letter-spacing: 0.2em;
 }
 
 .place__url-heading:hover {

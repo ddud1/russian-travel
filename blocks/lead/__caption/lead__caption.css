@@ -1,9 +1,12 @@
 .lead__caption {
     text-align: left;
-    font-family: "Inter", "Arial";
     text-transform: uppercase;
     padding-top: 8px;
     margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
 }
 
 /*Для разрешения 1024px*/
@@ -17,8 +20,6 @@
 @media screen and (max-width:768px) {
     .lead__caption {
         padding-left: 16px;
-        font-size: 10px;
-        line-height: 14px; 
     }
   }
   

@@ -5,7 +5,6 @@
     line-height: 163%;
     margin: 0;
     padding-bottom: 26px;
-    font-family: "Inter", "Arial";
 }
 
 .place__paragraph:last-child {
@@ -13,14 +12,14 @@
 }
 
 /*Для разрешения 1024px*/
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .place__paragraph {
       max-width: 456px;
     }
   }
   
   /*Для разрешения 768px*/
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:767px) {
     .place__paragraph {
       font-size: 16px;
       max-width: 352px;

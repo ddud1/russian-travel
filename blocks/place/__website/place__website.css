@@ -1,6 +1,9 @@
 .place__website {
 max-width: 456px;
 align-self: end;
+font-size: 18px;
+line-height: 22px;
+font-weight: 400;
 }
 
 /*Для разрешения 320px*/

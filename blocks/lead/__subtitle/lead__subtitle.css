@@ -3,14 +3,13 @@
     max-width: 640px;
     padding-bottom: 64px;
     margin: 0;
-    font-family: "Inter", "Arial";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
 }
 
 /*Для разрешения 768px*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .lead__subtitle {
         max-width: 288px;
         font-size: 16px;

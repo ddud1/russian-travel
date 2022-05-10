@@ -8,10 +8,17 @@
 }
 
 /*Для разрешения 768px*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .footer {
       min-height: 310px;
       padding: 88px 24px 24px 24px;
       flex-direction: column;
     }
   }
+
+  /*Для разрешения 320px*/
+@media screen and (max-width:320px) {
+  .footer {
+    padding-top: 64px;
+  }
+}

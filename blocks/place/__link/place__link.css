@@ -1,5 +1,9 @@
 .place__link {
 text-decoration: underline;
 color: #ffff;
-font-family: "Inter", "Arial";
+transition: opacity ease-in-out 1s;
+}
+
+.place__link:hover {
+opacity: 0.8;
 }
