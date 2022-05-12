@@ -7,10 +7,17 @@
     row-gap: 48px;
 }
 
+/*Для разрешения 1280px*/
+@media screen and (max-width:1279px) {
+  .place {
+      column-gap: 32px;
+  }
+}
+
 /*Для разрешения 1024px*/
 @media screen and (max-width:1023px) {
     .place {
-        column-gap: 32px;
+        column-gap: 28px;
     }
   }
 

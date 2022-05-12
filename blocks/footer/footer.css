@@ -7,6 +7,13 @@
     justify-content: space-between;
 }
 
+/*Для разрешения 1024px*/
+@media screen and (max-width:1023px) {
+  .footer {
+    padding: 88px 24px 24px 24px;
+  }
+}
+
 /*Для разрешения 768px*/
 @media screen and (max-width:767px) {
     .footer {

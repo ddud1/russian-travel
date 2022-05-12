@@ -7,6 +7,13 @@
     transition: opacity ease-in-out 1s;
 }
 
+/*Для разрешения 1024px*/
+@media screen and (max-width:1023px) {
+    .footer__link {
+        margin-right: 28px;
+    }
+  }
+
 /*Для разрешения 768px*/
 @media screen and (max-width:767px) {
     .footer__link {
@@ -14,7 +21,7 @@
         font-size: 24px;
         line-height: 24px;
     }
-  }
+}
 
   .footer__link:last-child {
       margin-bottom: 0;

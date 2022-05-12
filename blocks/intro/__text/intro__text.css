@@ -1,7 +1,6 @@
 .intro__text {
 padding: 0;
 margin: 0;
-font-family: "Inter", "Arial";
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
@@ -10,7 +9,7 @@ line-height: 163%;
 /*Для разрешения 768px*/
 @media screen and (max-width:768px) {
     .intro__text {
-    max-width: 93,75%;
+    max-width: 93.75%;
     }
   }
 

@@ -1,31 +1,31 @@
 .intro {
-    margin: 0 auto;
+    margin: 0;
     padding: 92px 442px 92px 148px;
-    font-family: "Inter", "Arial";
     display: flex;
     flex-direction: column;
     max-width: 690px;
 }
 
-/*Для разрешения 1024px*/
-@media screen and (max-width:1024px) {
-    .intro {
-      padding: 92px 286px 92px 48px;
-    }
-  }
-  
-  /*Для разрешения 768px*/
-  @media screen and (max-width:768px) {
-    .intro {
-    padding: 88px 24px 88px 24px;
 
-    }
+/*Для разрешения 1280px*/
+@media screen and (max-width:1279px) {
+  .intro {
+  padding: 92px 286px 92px 48px;
   }
+}
+
+/*Для разрешения 1024px*/
+@media screen and (max-width:1023px) {
+  .intro {
+  padding: 88px 24px 88px 24px;
+  max-width: 720px;
+  }
+}
   
   /*Для разрешения 320px*/
   @media screen and (max-width:320px) {
     .intro {
       max-width: 288px;
-    padding: 64px 16px 64px 16px;
+      padding: 64px 16px 64px 16px;
     }
   }
